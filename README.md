@@ -1,5 +1,27 @@
 ## Trendy News App Auth (bcryptjs)
 
+A full-stack TypeScript application that delivers personalized news using modern web technologies.
+
+## 🚀 Features
+
+- 🔐 Authentication (JWT)
+- 🧠 Personalized news feed
+- ⭐ Bookmark articles
+- 🔍 Search & filtering
+- ⚡ Real-time updates 
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js (TypeScript)
+- React
+- Custom hooks
+
+### Backend
+- Node.js + Express (TypeScript)
+- MongoDB + Mongoose
+- REST API 
+
 This app includes password authentication with:
 - `bcryptjs` password hashing
 - Signup and login API routes
@@ -34,6 +56,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Notes
 
-- Passwords are never stored in plain text.
 - Users are saved in `data/users.json` for local development.
-- For production, replace file-based storage with your database (Prisma/Postgres, etc.).
